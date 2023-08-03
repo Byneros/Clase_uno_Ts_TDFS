@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   BotonSumar.addEventListener("click", () => {
       const num1 = parseFloat(input1.value);
-      const num2 = parseFloat(input2.value)
+      const num2 = parseFloat(input2.value);
       const result = sumar(num1, num2);
       resultado.textContent = `Resultado: ${result}`;
   });
